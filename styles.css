@@ -1,7 +1,12 @@
 .block-heading {
       color: #3b99e0;
-    text-align:center;
+      text-align:center;
       margin-bottom: 30px;
+    }
+.block-heading p{
+      
+      text-align:center;
+      
     }
     
     .product {
@@ -14,6 +19,3 @@
       border-top: 2px solid #5ea4f3;
       background-color: #f7fbff;
     }
-p{
-	text-align: center;
-}
