@@ -1,23 +1,14 @@
 .block-heading {
-      color: #3b99e0;
-      text-align:center;
-	justify-content:center;
-      margin-bottom: 30px;
-    }
-.block-heading p{
-      
-      text-align:center;
-	justify-content:center;
-      
-    }
-    
-    .product {
-      margin-bottom: 20px;
-		text-align:center;
-    }
-    
-    .summary {
-      padding: 20px;
-      border-top: 2px solid #5ea4f3;
-      background-color: #f7fbff;
-    }
+    text-align: center;
+}
+.block-heading p {
+    text-align: center;
+}
+
+.summary {
+    border-top: 1px solid #5ea4f3;
+    background-color: #f7fbff;
+}
+h2, h3, h4, h5 {
+    color: #3b99e0;
+}
