@@ -116,15 +116,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<!-- Cypress Test -->
-<script>
-    describe('Shopping Cart Test', () => {
-        it('should have centered block heading in the first product', () => {
-            cy.get('.product:first .block-heading').should('have.length', 1).and('have.css', 'text-align', 'center');
-            cy.get('.product:first .block-heading p').should('have.css', 'text-align', 'center');
-        });
-    });
-</script>
+
 
 </body>
 </html>
