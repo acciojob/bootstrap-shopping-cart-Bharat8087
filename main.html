@@ -35,7 +35,7 @@
 				</div>
             </div>
           </div>
-div class="product">
+<div class="product">
           <div class="row">
             <div class="col-md-4">
               <img src="https://www.91-img.com/gallery_images_uploads/8/e/8e3d716965a93fbf51083be99305d4faa9acf164.jpg?tr=h-630,c-at_max,q-80" alt="One plus" class="img-fluid">
@@ -66,7 +66,7 @@ div class="product">
           </div>
         </div>
       </div>
-       
+       <div class="row">
        <div class="col-lg-4">
         <div class="summary">
           <h3>Summary</h3>
@@ -89,9 +89,15 @@ div class="product">
             </li>
           </ul>
           <button type="button" class="btn btn-primary btn-block mt-3">Checkout</button>
-        </div>
+        </div></div>
       </div>
     </div>
   </div>
+	  <script>
+		  () => { 
+      cy.get('.block-heading').should('have.length', 1).and('have.css', 'text-align', 'center'); 
+      cy.get('.block-heading p').should('have.css', 'text-align', 'center'); 
+    }
+	  </script>
 </body>
 </html>
