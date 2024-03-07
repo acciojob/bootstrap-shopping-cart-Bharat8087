@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+.block-heading {
+      color: #3b99e0;
+      text-align: center;
+	h1,h2,h3,h4,h5,h6{
+		color:#3b99e0;
+	}
+    }
+    .summary {
+      border-top: 2px solid #5ea4f3;
+      background-color: #f7fbff;
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+    .product img {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+.btn-checkout {
+      background-color: #3b99e0;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
